@@ -1,0 +1,145 @@
+@import url(../fonts/museo_100_macroman/stylesheet.css); 
+@import url(../fonts/museo_100italic_macroman/stylesheet.css);  
+
+@import url(../fonts/museo_300_macroman/stylesheet.css); 
+@import url(../fonts/museo_300italic_macroman/stylesheet.css);  
+ 
+@import url(../fonts/museo_500_macroman/stylesheet.css); 
+@import url(../fonts/museo_500italic_macroman/stylesheet.css); 
+
+@import url(../fonts/museo_700_macroman/stylesheet.css); 
+@import url(../fonts/museo_700italic_macroman/stylesheet.c/Users/dan/Projects/Personal Site/html/index.htmlss);
+
+@import url(../fonts/museo_900_macroman/stylesheet.css); 
+@import url(../fonts/museo_900italic_macroman/stylesheet.css);  
+
+
+
+body {
+    background-color: #333;
+    background-image: url(../images/txture.png);
+	background-repeat: repeat;
+}
+
+p {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Museo300Regular', Arial, sans-serif;
+}
+
+a {
+     font-family: 'Museo500Regular', Arial, sans-serif;
+     color: #fff;
+}
+
+h2 {
+    font-family: 'Museo700Regular', Arial, sans-serif;
+     color: #fff;
+     font-size: 20px;
+     font-weight: normal;
+     margin: 20px 0;
+}
+
+h3 {
+    font-family: 'Museo500Regular', Arial, sans-serif;
+     color: #fff;
+     font-size: 16px;
+     font-weight: normal;
+     margin: 15px 0;
+}
+
+#container {
+	background-image: url(../images/random_grey_variations.png);
+	background-repeat: repeat;
+	
+	color: #fff;
+    min-height: 100%;
+}
+
+#header {
+    padding-top: 20px;
+    height: 200px;
+    background-image: url(../images/header.png);
+	background-repeat: no-repeat;
+	background-top: 0;
+	background-left: 0;
+}
+
+#logo {
+    background-image: url(../images/twitter-logo.png);
+	background-repeat: no-repeat;
+	background-top: 0;
+	background-left: 0;
+	height: 150px;
+	padding-left: 130px;
+	padding-top: 40px;
+}
+
+#logo h1 {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Museo300Regular', Arial, sans-serif;
+}
+#logo h1 span {
+    font-family: 'Museo700Regular', Arial, sans-serif;
+}
+
+#logo #twitter {
+    margin-top: -80px;
+    margin-left: -15px;
+    width: 500px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'Museo300Regular', Arial, sans-serif;
+}
+
+
+#social-icons ul {
+
+	margin: 0 0 0 120px;
+
+	padding: 5px;
+	list-style: none;
+	
+	}
+
+ul#social-icons li {
+	
+	margin:0;
+	padding:0;
+	margin-right:10px
+}
+
+.app_info {
+    height: 350px;
+}
+
+.app_info img {
+    float: left;
+}
+
+.app_info h3 {
+    width: 230px;
+    float: left;
+    margin: 0;
+}
+
+.app_info p {
+    float: left;
+    width: 250px;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+.app_info p.screenshot {
+    width: 175px;
+}
+
+.app_info p.icon {
+    margin: 20px 0 0 0;
+}
+
+.spacer {
+    width: 100%;
+    height: 30px;
+}

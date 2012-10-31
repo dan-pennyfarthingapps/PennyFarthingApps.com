@@ -1,0 +1,5 @@
+/psds
+*.psd
+*.png
+/fonts
+.DS_Store
